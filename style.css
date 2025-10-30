@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body,
+html {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 0, 0);
+    flex-direction: column;
+    margin-top: -16px;
+    display: flex;
+    text-align: center;
+}
+
+.header li {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    padding: 19px;
+    font-size: 1.7em;
+}
+
+.left-up{
+    width: 400px;
+    height: 400px;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.pic1{
+    width: 100%;
+    height: 60%;
+}
+
+.pic1 img{
+    width: 300px;
+    height: 80%;
+    margin-left: 45px;
+    margin-top: 10%;
+}
+
+.title1{
+    width: 100%;
+    height: 40%;
+
+}
+
+.title1 h1{
+    text-align: center;
+
+}
+
+.title1 p{
+    text-align: center;
+    justify-content: center;
+}
+.title1 a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+.mid-up{
+    width: 400px;
+    height: 400px;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.pic2{
+    width: 100%;
+    height: 60%;
+}
+
+.pic2 img{
+    width: 300px;
+    height: 80%;
+    margin-left: 45px;
+    margin-top: 10%;
+}
+
+.title2{
+    width: 100%;
+    height: 40%;
+
+}
+
+.title2 h1{
+    text-align: center;
+
+}
+
+.title2 p{
+    text-align: center;
+    justify-content: center;
+}
+.title2 a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.right-up{
+    width: 400px;
+    height: 400px;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.pic3{
+    width: 100%;
+    height: 60%;
+}
+
+.pic3 img{
+    width: 300px;
+    height: 80%;
+    margin-left: 45px;
+    margin-top: 10%;
+}
+
+.title3{
+    width: 100%;
+    height: 40%;
+
+}
+
+.title3 h1{
+    text-align: center;
+
+}
+
+.title3 p{
+    text-align: center;
+    justify-content: center;
+}
+.title3 a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.left-down{
+    width: 400px;
+    height: 400px;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.pic4{
+    width: 100%;
+    height: 60%;
+}
+
+.pic4 img{
+    width: 300px;
+    height: 80%;
+    margin-left: 45px;
+    margin-top: 10%;
+}
+
+.title4{
+    width: 100%;
+    height: 40%;
+
+}
+
+.title4 h1{
+    text-align: center;
+
+}
+
+.title4 p{
+    text-align: center;
+    justify-content: center;
+}
+.title4 a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.mid-down{
+    width: 400px;
+    height: 400px;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.pic5{
+    width: 100%;
+    height: 60%;
+}
+
+.pic5 img{
+    width: 300px;
+    height: 80%;
+    margin-left: 45px;
+    margin-top: 10%;
+}
+
+.title5{
+    width: 100%;
+    height: 40%;
+
+}
+
+.title5 h1{
+    text-align: center;
+
+}
+
+.title5 p{
+    text-align: center;
+    justify-content: center;
+}
+.title5 a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+.right-down{
+    width: 400px;
+    height: 400px;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.pic6{
+    width: 100%;
+    height: 60%;
+}
+
+.pic6 img{
+    width: 300px;
+    height: 80%;
+    margin-left: 45px;
+    margin-top: 10%;
+}
+
+.title6{
+    width: 100%;
+    height: 40%;
+
+}
+
+.title6 h1{
+    text-align: center;
+
+}
+
+.title6 p{
+    text-align: center;
+    justify-content: center;
+}
+.title6 a{
+    color: black;
+    text-decoration: none;
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.art1{
+    width: 500px;
+    height: 600px;
+    margin-top: -750px;
+    margin-left: 35%;
+
+}
+
+.picture{
+    width: 100%;
+    height: 75%;
+    
+}
+
+.picture img{
+    width: 100%;
+    height: 100%;
+}
+.dis1{
+    width: 100%;
+    height: 25%;
+}
+
+.dis1 p{
+    word-spacing: 10px;
+}
+
+
+
+
+
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
