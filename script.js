@@ -275,3 +275,38 @@ const posts = [
     featured: false,
   },
 ];
+function createNavbar(){
+            let menu = site.nav;
+            let nav = document.createElement("nav");
+            let container = document.getElementById("container-fluid");
+            let ul = document.createElement("ul");
+            
+            menu.forEach(item =>{
+              let li = document.createElement("li");
+              let a = document.createElement("a");
+  
+              a.textContent = item.label;
+              a.href = item.path;
+              li.appendChild(a);
+              ul.appendChild(li);
+              ul.classList.add("nav-list");
+              //ul.classList.add("active");
+              nav.appendChild(ul);
+              container.appendChild(nav);
+            })
+            
+          } 
+          createNavbar();
+        
+          const navToggle = document.querySelector(".nav-toggle");
+          const menu = document.querySelector(".nav-list");
+          const navToggleImg = document.querySelector("#nav-toggle-img");
+  
+          navToggle.addEventListener('click', ()=>{
+            menu.classList.toggle('active');
+            if (menu.classList.contains('active')){
+                navToggleImg.src = 'close.svg';
+            }else{
+              navToggleImg.src = 'menu.svg';
+            }
+          });
